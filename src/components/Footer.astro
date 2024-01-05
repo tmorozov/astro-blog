@@ -1,0 +1,20 @@
+---
+const platform = "github";
+const username = "tmorozov";
+import Social from "./Social.astro";
+---
+
+<footer>
+  <p>
+    Learn more about my projects on
+    <Social username="tmorozov" platform="github" />
+  </p>
+</footer>
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
